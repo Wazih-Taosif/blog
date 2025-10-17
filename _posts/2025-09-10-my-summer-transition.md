@@ -17,8 +17,8 @@ We played valorant for hours, trying our best to climb up the ranks. It was real
 Might not be believable, but even in the summer I studied. Partly because I had a test. But luckily the subject was my favourite subject, Maths. And there’s something satisfying about solving problems which makes me wanna study and know more about this subject. I also tinkered with a bit of programming, exploring how logic and creativity come together in code. It wasn’t intense, but it was enough to keep my brain sharp and curious.
 </p>
 <div style="display: flex; justify-content: space-evenly">
-<img src="/blog/images/maths pic.jpg" alt="maths picture" style="width: 300px">
-<img src="/blog/images/programming in html pic.jpeg" alt="programming picture"  style="width: 300px">
+<img src="/blog/images/maths pic.jpg" alt="maths picture" style="width: 180px">
+<img src="/blog/images/programming in html pic.jpeg" alt="programming picture"  style="width: 180px">
 </div>
 <p style="font-size: 18px; margin-bottom: 4px; margin-top: 4px">
 Not just Maths. But I also decided to learn digital logics. But not in a usual way, by learning and memorising definitions. Instead, I decided to learn digital logics through one of my facvorite games, Minecraft. I went on youtube, and started watching videos of logistic redstone, and learned how binary calculations, full-adders, 7-segment screens etc, can be implemented into minecraft. I wanted to learn everything about binary calculation, and digital logics, and make a working calculator in minecraft, but unfortunately due to shortage of time I couldn't. But the next big school break, I will definitely try to accomplish that goal.
