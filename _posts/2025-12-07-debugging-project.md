@@ -60,12 +60,12 @@ for num in range(1, n):
 ```
 The given code is supposed to tell us if the numbers from 1 to n is even or odd, 'n' being the maximum number, so if n = 10, it would check and tell us which numbers from 1 to 10 are even and which are odd. But the code does not even run. This is because there are 3 problems.
 
-<strong>First problem:</strong> The inputed number by the user is a string not an integer. So we need to fix it by converting the data type of n from string to integer. 
-<strong>Second problem:</strong> It doesn’t include the imputed number (n). We can fix it by incrementing n by 1 in line 3, making sure it counts n too. This has to be done because in python the range() function does not include the last number.
-<strong>Third problem:</strong>It only prints the else condition’s statement. This is mainly because there is a problem in the if condition. So on line 4 we need to change the condition to: <strong>if num % 2 == 0.</strong> This will thus only print the following statement if the remainder is 0.  
+<strong>First problem:</strong> The inputed number by the user is a string not an integer. So we need to fix it by converting the data type of n from string to integer. <br>
+<strong>Second problem:</strong> It doesn’t include the imputed number (n). We can fix it by incrementing n by 1 in line 3, making sure it counts n too. This has to be done because in python the range() function does not include the last number. <br>
+<strong>Third problem:</strong>It only prints the else condition’s statement. This is mainly because there is a problem in the if condition. So on line 4 we need to change the condition to: <strong>if num % 2 == 0.</strong> This will thus only print the following statement if the remainder is 0. <br>  
 
 So the final code will look like:
- 
+
 ```python
 n = int(input()) # takes a integer input
 
@@ -74,4 +74,39 @@ for num in range(1, n + 1): #n + 1 includes n too.
         print(num, "is even.")
     else:
         print(num, "is odd.")
+```
+
+<h2>Code Snippet 3</h2>
+
+```python
+num = int(input("Enter an integer: "))
+
+if num < -1:
+  print("No negative numbers.")
+else:
+  result = 1
+  for i in range(1, num):
+    result *= i   
+
+  print("Factorial of " + num + "is" + result)
+```
+
+The objective of the code is to calculate the factorial of a given number. But once again the code fails to run. Well in this case, there are two problems in the code. <br>
+
+<strong>First problem:</strong> The end print statement doesn’t work as we can’t add strings with integers with a plus (+) sign. So instead we can use a formating method. So we will use print(f””) instead, and placing the variables ‘num’, and ‘result’ inside curly brackets {}. <br>
+
+<strong>Second problem:</strong> The result isn’t correct as the loop doesn’t iterate the correct amount of time. To fix it we need to include the inputted integer ‘num’. So change the range of for loop to (1, num + 1)<br>
+
+The final code will look like:
+```python
+num = int(input("Enter an integer: "))
+
+if num < -1:
+  print("No negative numbers.") # negative numbers cant be factorial as it is undefined.
+else:
+  result = 1
+  for i in range(1, num + 1): # includes the inputted integer num. 
+    result *= i   #result of the factorial of the given integer 'num'. 
+
+  print(f"Factorial of {num} is {result}")
 ```
