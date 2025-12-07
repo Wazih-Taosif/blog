@@ -157,4 +157,7 @@ while True:
         break
 ```
 
+<h1>Conclusion</h1>
+<br>
+In reflecting on this debugging process, I’ve realized that effective problem-solving in coding is less about finding quick fixes and more about developing patience, persistence, and a structured approach. By carefully analyzing error messages, testing different solutions, and learning from mistakes, I not only resolved the immediate issue but also strengthened my ability to think critically under pressure. This experience taught me that debugging is not just a technical skill—it’s a mindset of resilience and curiosity. Moving forward, I’ll carry these lessons into future coding projects, approaching challenges with greater confidence and a clearer strategy for breaking down complex problems into manageable steps.
 
