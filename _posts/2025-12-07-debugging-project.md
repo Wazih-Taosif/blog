@@ -45,3 +45,33 @@ for char in text:
 
 print(count)
 ```
+
+<h2>Code Snippet 2</h2>
+
+```python
+print("give me a number")
+n = input()
+
+for num in range(1, n):
+    if num % 2 < 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+```
+The given code is supposed to tell us if the numbers from 1 to n is even or odd, 'n' being the maximum number, so if n = 10, it would check and tell us which numbers from 1 to 10 are even and which are odd. But the code does not even run. This is because there are 3 problems.
+
+<strong>First problem:</strong> The inputed number by the user is a string not an integer. So we need to fix it by converting the data type of n from string to integer. 
+<strong>Second problem:</strong> It doesn’t include the imputed number (n). We can fix it by incrementing n by 1 in line 3, making sure it counts n too. This has to be done because in python the range() function does not include the last number.
+<strong>Third problem:</strong>It only prints the else condition’s statement. This is mainly because there is a problem in the if condition. So on line 4 we need to change the condition to: <strong>if num % 2 == 0.</strong> This will thus only print the following statement if the remainder is 0.  
+
+So the final code will look like:
+ 
+```python
+n = int(input()) # takes a integer input
+
+for num in range(1, n + 1): #n + 1 includes n too.
+    if num % 2 == 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+```
