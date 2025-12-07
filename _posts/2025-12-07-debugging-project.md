@@ -24,3 +24,24 @@ for char in text:
 
 print(count)
 ```
+This was the original code given to me. The code was supposed to count how many spaces are there in between the text. In technical terms, it was supposed to count the spaces in a string. Now the problem is very obvious, and it is a logical error. specifically in line 4 it is written 
+```python
+if char == "":
+```
+We just need to change that to 
+```python
+if char == " ":
+```
+This is because python understand "" as nothing, but " " as space. 
+
+Thus the final code will look like:
+```python
+text = "Hello, world, my name is" # given string
+count = 0
+
+for char in text:
+    if char == " ": #only runs the following statement when it detects a space in the loop
+       count += 1
+
+print(count)
+```
