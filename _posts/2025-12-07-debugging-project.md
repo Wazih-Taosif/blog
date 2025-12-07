@@ -110,3 +110,51 @@ else:
 
   print(f"Factorial of {num} is {result}")
 ```
+
+<h2>Code Snippet 4</h2>
+
+```python
+attempts = 0
+correct_password = "secret"
+
+while True:
+    password = input("Enter your password: ")
+    attempts += 1
+
+    if password == "incorrect_password":
+        print("Correct password!")
+    else:
+        print("Incorrect password")
+
+    if attempts > 3:
+        print("Too many attempts")
+        break
+```
+The objective of the code is to ask user to enter the correct password but only give them 3 attempts. But it doesn't work like we want. There are three issues with the code.
+
+<strong>First problem:</strong> It doesn’t print ‘correct password!’ even when the user gets it correct. In order to fix it, we need to change condition of first if condition to password == correct_password. <br>
+<strong>Second problem:</strong> It gives the user 4 attempts instead of 3. To fix it the last if statement should be  if attempts == 3. This is because this way it will stop the code when attempts is 3, and not more than 3. <br>
+<strong>Third problem:</strong> It doesn’t end the code when the user gets it correct. So, we need to put a break statement in the first if statement after print(“correct password!”). The break statement will stop the code when the if condition is met. <br>
+
+Thus the final code will be:
+
+```python
+attempts = 0
+correct_password = "secret"
+
+while True:
+    password = input("Enter your password: ")
+    attempts += 1
+
+    if password == correct_password:
+        print("Correct password!")
+        break
+    else:
+        print("Incorrect password")
+
+    if attempts == 3:
+        print("Too many attempts")
+        break
+```
+
+
