@@ -18,8 +18,6 @@
   }
 </style>
 
-<div>
-
 <h1 class="post-title">How <em>I, Robot</em> Portrays Artificial Intelligence</h1>
 <p class="post-subtitle">and what it makes us think about the future of AI</p>
 
@@ -65,5 +63,3 @@ Watching <em>I, Robot</em> made me think more deeply about what AI can do and wh
 At the same time, the film raises serious concerns. It shows AI that malfunctions, evolves beyond its limits, and even disobeys human commands. VIKI’s decision to control humanity “for its own good” is a powerful warning about giving AI too much power without enough human oversight, emotion, or ethics.
 <br>
 These representations can strongly influence how the public views real AI development—sometimes inspiring excitement, and other times creating fear. Overall, the movie challenged me to think about how much we should trust AI, what rules we need around it, and what responsibilities humans have when creating technology that can think, learn, and make decisions about our lives.
-
-</div>
