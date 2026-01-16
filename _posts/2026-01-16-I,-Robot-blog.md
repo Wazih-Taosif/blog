@@ -1,11 +1,4 @@
 <style>
-  .post-container {
-    max-width: 800px;
-    margin: 0 auto;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    line-height: 1.6;
-  }
-
   .post-title {
     text-align: center;
     margin-bottom: 0.2rem;
@@ -25,7 +18,7 @@
   }
 </style>
 
-<div class="post-container">
+<div>
 
 <h1 class="post-title">How <em>I, Robot</em> Portrays Artificial Intelligence</h1>
 <p class="post-subtitle">and what it makes us think about the future of AI</p>
